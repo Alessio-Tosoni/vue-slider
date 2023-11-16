@@ -32,7 +32,8 @@ h1{
 }
 #descrizione{
     font-size:28px ;
-    font-style: italic
+    font-style: italic;
+    margin: 15px
 }
 #bck{
     margin: 10px 25px;

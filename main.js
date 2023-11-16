@@ -52,9 +52,7 @@ const recensioni ={
             }
         }
     },
-    mounted(){
-        console.log("pagina")
-    }
+    
     
 }
 createApp(recensioni).mount("#app")
