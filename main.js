@@ -51,6 +51,9 @@ const recensioni ={
                 this.slideNumber = 0;
             }
         }
+    },
+    mounted(){
+        console.log("pagina")
     }
     
 }

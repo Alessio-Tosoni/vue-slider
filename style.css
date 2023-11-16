@@ -1,7 +1,43 @@
-.card{
-    display: none;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.cardActive{
-    display: block;
+body{
+    font-family:sans-serif;
+    background: #222;
+    color: white;
+}
+
+#app{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.card{
+    border: 1px solid white;
+}
+
+h1{
+    font-size: 32px;
+    margin: 16px;
+}
+
+#autore{
+    
+    font-size: 22px;
+    margin: 16px;
+}
+#descrizione{
+    font-size:28px ;
+    font-style: italic
+}
+#bck{
+    margin: 10px 25px;
+    width: 60px;
+}
+#nxt{
+    margin: 10px 25px;
+    width: 60px;
 }
