@@ -17,6 +17,7 @@ body{
 }
 .card{
     border: 1px solid white;
+    margin-top: 50px;
 }
 
 h1{
@@ -35,9 +36,9 @@ h1{
 }
 #bck{
     margin: 10px 25px;
-    width: 60px;
+    font-size: 18px;
 }
 #nxt{
     margin: 10px 25px;
-    width: 60px;
+    font-size: 18px;
 }
