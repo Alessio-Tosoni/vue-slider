@@ -1,0 +1,7 @@
+.card{
+    display: none;
+}
+
+.cardActive{
+    display: block;
+}

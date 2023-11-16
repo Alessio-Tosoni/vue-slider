@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vue slider</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+<div id="app">
+   <div v-for = "slide in slides" class="card" class="{cardActive: (i == slidenumber)}" alt="">
+        <h1 >{{slide.titolo}}</h1>
+        <img v-bind:src="slide.immagine">
+        <p>{{slide.contenuto}}</p>
+        <p>{{slide.autoreNome}} {{slide.autoreCognome}}</p>
+   </div>
+   <button @click="back()">indietro</button>
+   <button @click="next()">avanti</button>
+   
+    
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
